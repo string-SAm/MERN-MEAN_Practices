@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login page in HTML</title>
+    <script src="script.js"></script>
+
+</head>
+<body>
+      <div id="upper">
+    <form action="">
+        <!-- Headings for the form -->
+        <div class="headingsContainer">
+            <h1>Log in</h1>
+            <p>Please check that you are visiting the correct URL</p>
+            <p><a href="http://bitdelta.com"></a>https://bitdelta.com</p>
+        </div>
+ 
+        <!-- Main container for all inputs -->
+        <div class="mainContainer">
+            <!-- Username -->
+            <label for="username">Email</label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+ 
+            <br><br>
+ 
+            <!-- Password -->
+            <label for="pswrd">Password</label>
+            <input type="password" placeholder="Enter Password" name="pswrd" required>
+ 
+            <!-- sub container for the checkbox and forgot password link -->
+             <br><br>
+ 
+ 
+            <!-- Submit button -->
+            <button id="sbut" type="submit">Login</button>
+ 
+            <!-- Sign up link -->
+            <div style="display: flex; gap: 150px;">
+            <p class="register">New account?  <a href="#">Register here!</a></p>
+            <p class="forgotpsd"> <a href="#">Forgot Password?</a></p>
+        </div>
+ 
+        </div>
+ 
+    </form>
+</div>
+</body>
+</html>
